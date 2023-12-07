@@ -1,0 +1,9 @@
+*{font-family: 'Roboto', sans-serif;}
+.title {font-weight: 900;}
+th {font-weight: 700;}
+td {text-align: center;font-size: 10px;color: gray;font-style: normal;}
+footer {background-color: black;}
+address {color: aliceblue;}
+footer :nth-child(3) {color: aliceblue;}
+
+
