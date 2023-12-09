@@ -1,6 +1,9 @@
 *{font-family: 'Roboto', sans-serif;}
-.title {font-weight: 900;}
-th {font-weight: 700;}
+.title {font-weight: 900;font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;}
+th {font-weight: 700;font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    }
 td {text-align: center;font-size: 10px;color: gray;font-style: normal;}
 footer {background-color: black;}
 address {color: aliceblue;}
