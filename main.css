@@ -1,11 +1,22 @@
-*{font-family: 'Roboto', sans-serif;}
+header { font-family: 'Roboto', sans-serif;;}
+.header-link {font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;;font-size: 20px;}
+
 .title {font-weight: 900;font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto', sans-serif;}
+    font-family: 'Roboto', sans-serif;;background-color: black ;padding: 50px;line-height: 100%; color: white;}
 th {font-weight: 700;font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto', sans-serif;
     }
-td {text-align: center;font-size: 10px;color: gray;font-style: normal;}
-footer {background-color: black;}
+    .button {margin-bottom: 50px;line-height: 100%;background-color: blue;color: white;
+      font-size: 20px; font-family: 'Montserrat', sans-serif;
+      font-family: 'Roboto', sans-serif; }
+    .table {margin-bottom: 100px;}
+    .section-gallery {margin-bottom:100px ;}
+    .section-title {font-family: 'Montserrat', sans-serif;font-family: 'Montserrat', sans-serif;
+        font-family: 'Roboto', sans-serif;}
+td {text-align: center;font-size: 10px;color: gray;font-style: normal;font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;}
+footer {background-color: black;line-height: 100%;font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;}
 address {color: aliceblue;}
 footer :nth-child(3) {color: aliceblue;}
 
