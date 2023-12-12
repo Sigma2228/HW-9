@@ -1,22 +1,103 @@
-header { font-family: 'Roboto', sans-serif;}
-.header-link {font-family: 'Roboto', sans-serif;;font-size: 20px;}
-
-.title {font-weight: 900;
-    font-family: 'Roboto', sans-serif;;background-color: black ;padding: 50px;line-height: 100%; color: white;}
-th {font-weight: 700;
-    }
-    .button {margin-bottom: 50px;line-height: 100%;background-color: blue;color: white;
-      font-size: 20px;
-      font-family: 'Roboto', sans-serif; }
-      .we-who-are-name {font-family: 'Roboto', sans-serif;}
-    .table {margin-bottom: 100px;}
-    .section-gallery {margin-bottom:100px ;}
-    .section-title {font-family: 'Roboto', sans-serif;}
-td {text-align: center;font-size: 10px;color: gray;font-style: normal;
-    font-family: 'Roboto', sans-serif;}
-footer {background-color: black;line-height: 100%;
-    font-family: 'Roboto', sans-serif;}
-address {color: aliceblue;font-weight: 400;}
-footer :nth-child(3) {color: aliceblue;}
-
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: url('fonts/Roboto/Roboto-Black.ttf')
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 900;
+    src: url('fonts/Roboto/Roboto-BlackItalic.ttf')
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('fonts/Roboto/Roboto-Bold.ttf')
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    src: url('fonts/Roboto/Roboto-BoldItalic.ttf')
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('fonts/Roboto/Roboto-Light.ttf')
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    src: url('fonts/Roboto/Roboto-LightItalic.ttf')
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('fonts/Roboto/Roboto-Medium.ttf')
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    src: url('fonts/Roboto/Roboto-MediumItalic.ttf')
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/Roboto/Roboto-Regular.ttf')
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    src: url('fonts/Roboto/Roboto-Thin.ttf')
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 100;
+    src: url('fonts/Roboto/Roboto-ThinItalic.ttf')
+}
+.header-link {
+    font-weight: 500;
+}
+.title {
+    font-size: 44px;font-weight: 900;
+}
+.button {
+    font-size: 16px;
+    font-weight: 700;
+}
+.table-head {
+    font-size: 14px;
+    font-weight: 700;
+}
+.table-body {
+    font-weight: 400;
+    font-size: 14px;
+}
+.section-title {
+    font-weight: 700;
+    font-size: 36;
+}
+.we-who-are-name {
+    font-size: 16px;
+    font-weight: 500;
+}
+.we-who-are-profesion {
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-details {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    background-color: black; padding: 30px
+}
 
